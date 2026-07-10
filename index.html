@@ -1,376 +1,382 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEVCONF 2026</title>
-    <link rel="shortcut icon" href="./assets/logo-mini.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/logo-mini.png"
+      type="image/x-icon"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!-- GOOGLE FONT -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- FONT AWESOME  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- EXTERNAL CSS -->
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./ai-recommended-tracts.css">
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./ai-recommended-tracts.css" />
+  </head>
 
-<body>
+  <body>
     <!-- HEADER NAVBAR -->
     <nav class="container">
-        <img class="navbar-logo" src="./assets/logo.png" alt="Logo">
+      <img class="navbar-logo" src="./assets/logo.png" alt="Logo" />
 
-        <ul>
-            <li><a href="#">Speakers</a></li>
-            <li><a href="#">Schedule</a></li>
-            <li><a href="#">Tracks</a></li>
-            <li><a href="#">Venue</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Speakers</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Tracks</a></li>
+        <li><a href="#">Venue</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
 
-        <div class="btn navbar-register-now-btn">
-            Register Now
-        </div>
+      <div class="btn navbar-register-now-btn">Register Now</div>
     </nav>
 
     <!-- BANNER SECTION -->
     <section class="banner-section-parent">
-        <span class="banner-overlay"></span>
-        <div class="banner-section-child container">
-            <div class="banner-section-content">
-                <h1>Code. <em>Connect.</em> Create</h1>
-                <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days
-                    of
-                    cutting-edge talks, hands-on workshops, and meaningful connections.</p>
-            </div>
-
-            <div class="banner-section-btn">
-                <div class="btn banner-register-now-btn">Register Now</div>
-            </div>
+      <span class="banner-overlay"></span>
+      <div class="banner-section-child container">
+        <div class="banner-section-content">
+          <h1>Code. <em>Connect.</em> Create</h1>
+          <p>
+            Join 4,000+ engineers, founders, and builders at the premier
+            developer conference of 2026. Three days of cutting-edge talks,
+            hands-on workshops, and meaningful connections.
+          </p>
         </div>
+
+        <div class="banner-section-btn">
+          <div class="btn banner-register-now-btn">Register Now</div>
+        </div>
+      </div>
     </section>
 
     <!-- MEET THE SPEAKERS SECTION -->
     <section class="speakers-parent container">
-        <h2>Meet the Speakers</h2>
-        <div class="speakers-card-container">
-            <div class="card">
-                <img src="./assets/andrej.png" alt="Andrej Karpathy">
-                <div class="card-body">
-                    <div class="speakers-sector">AI/ML</div>
-                    <div class="speakers-name">Andrej Karpathy</div>
-                    <div class="speakers-note">Pretraining team, Anthropic</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assets/demis.png" alt="Demis Hassabis">
-                <div class="card-body">
-                    <div class="speakers-sector">Cloud & Devops</div>
-                    <div class="speakers-name">Demis Hassabis</div>
-                    <div class="speakers-note">Co-Founder and CEO, Google DeepMind</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assets/gary.png" alt="Gary Marcus">
-                <div class="card-body">
-                    <div class="speakers-sector">Frontend</div>
-                    <div class="speakers-name">Gary Marcus</div>
-                    <div class="speakers-note">Staff Engineer, Vercel</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assets/mustafa.png" alt="Mustafa Suleyman">
-                <div class="card-body">
-                    <div class="speakers-sector">Security</div>
-                    <div class="speakers-name">Mustafa Suleyman</div>
-                    <div class="speakers-note">CEO of Microsoft AI</div>
-                </div>
-            </div>
+      <h2>Meet the Speakers</h2>
+      <div class="speakers-card-container">
+        <div class="card">
+          <img src="./assets/andrej.png" alt="Andrej Karpathy" />
+          <div class="card-body">
+            <div class="speakers-sector">AI/ML</div>
+            <div class="speakers-name">Andrej Karpathy</div>
+            <div class="speakers-note">Pretraining team, Anthropic</div>
+          </div>
         </div>
+
+        <div class="card">
+          <img src="./assets/demis.png" alt="Demis Hassabis" />
+          <div class="card-body">
+            <div class="speakers-sector">Cloud & Devops</div>
+            <div class="speakers-name">Demis Hassabis</div>
+            <div class="speakers-note">Co-Founder and CEO, Google DeepMind</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/gary.png" alt="Gary Marcus" />
+          <div class="card-body">
+            <div class="speakers-sector">Frontend</div>
+            <div class="speakers-name">Gary Marcus</div>
+            <div class="speakers-note">Staff Engineer, Vercel</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/mustafa.png" alt="Mustafa Suleyman" />
+          <div class="card-body">
+            <div class="speakers-sector">Security</div>
+            <div class="speakers-name">Mustafa Suleyman</div>
+            <div class="speakers-note">CEO of Microsoft AI</div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SECURE YOUR SPOT SECTION -->
     <div class="secure-spot-parent container">
-        <div class="secure-spot-title-part">
-            <h2>Secure Your Spot</h2>
-            <p>Early-bird pricing ends August 15, 2026.</p>
+      <div class="secure-spot-title-part">
+        <h2>Secure Your Spot</h2>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+      </div>
+
+      <div class="secure-spot-cards">
+        <div class="card">
+          <div class="card-title">
+            <p class="card-name">Standard</p>
+            <h1>$399</h1>
+            <p>per person</p>
+          </div>
+          <div class="divider"></div>
+          <div class="secure-spot-card-body">
+            <ul>
+              <li>Access to all 3 conference days</li>
+              <li>48 curated technical talks</li>
+              <li>2 workshop sessions</li>
+              <li>Networking luncg & coffee breaks</li>
+              <li>Conference swa bag</li>
+              <li>Digital recording (30 days)</li>
+            </ul>
+            <div class="secure-spot-card-btn btn-outline">Get standard</div>
+          </div>
         </div>
 
-        <div class="secure-spot-cards">
-            <div class="card">
-                <div class="card-title">
-                    <p class="card-name">Standard</p>
-                    <h1>$399</h1>
-                    <p>per person</p>
-                </div>
-                <div class="divider"></div>
-                <div class="secure-spot-card-body">
-                    <ul>
-                        <li>Access to all 3 conference days</li>
-                        <li>48 curated technical talks</li>
-                        <li>2 workshop sessions</li>
-                        <li>Networking luncg & coffee breaks</li>
-                        <li>Conference swa bag</li>
-                        <li>Digital recording (30 days)</li>
-                    </ul>
-                    <div class="secure-spot-card-btn btn-outline">Get standard</div>
-                </div>
-            </div>
-
-            <div class="card card-filled">
-                <div class="card-title">
-                    <p class="card-name">Pro</p>
-                    <h1>$749</h1>
-                    <p>per person</p>
-                </div>
-                <div class="divider"></div>
-                <div class="secure-spot-card-body">
-                    <ul>
-                        <li>Everything in Standard</li>
-                        <li>Unlimited workshop access</li>
-                        <li>Speaker meet & greet</li>
-                        <li>VIP networking dinner</li>
-                        <li>Lifetime recording access</li>
-                        <li>1-on-1 mentorship (30 min)</li>
-                    </ul>
-                    <div class="secure-spot-card-btn btn">Get Pro</div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-title">
-                    <p class="card-name">Team</p>
-                    <h1>$5,999</h1>
-                    <p>up to 10 people</p>
-                </div>
-                <div class="divider"></div>
-                <div class="secure-spot-card-body">
-                    <ul>
-                        <li>Everything in Pro (10 seats)</li>
-                        <li>Dedicated team lounge access</li>
-                        <li>Private workshop booking</li>
-                        <li>Company logo on event page</li>
-                        <li>Recuitment booth (1 day)</li>
-                        <li>Priority customer support</li>
-                    </ul>
-                    <div class="secure-spot-card-btn btn-outline">Contact Us</div>
-                </div>
-            </div>
+        <div class="card card-filled">
+          <div class="card-title">
+            <p class="card-name">Pro</p>
+            <h1>$749</h1>
+            <p>per person</p>
+          </div>
+          <div class="divider"></div>
+          <div class="secure-spot-card-body">
+            <ul>
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet & greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <div class="secure-spot-card-btn btn">Get Pro</div>
+          </div>
         </div>
+
+        <div class="card">
+          <div class="card-title">
+            <p class="card-name">Team</p>
+            <h1>$5,999</h1>
+            <p>up to 10 people</p>
+          </div>
+          <div class="divider"></div>
+          <div class="secure-spot-card-body">
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recuitment booth (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
+            <div class="secure-spot-card-btn btn-outline">Contact Us</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- AI GENERATED CONCEPT -->
     <div class="ai-recommended-tract-parent container">
-        <div class="ai-recommended-tract-title-part">
-            <h2>AI Recommended Tracks</h2>
-            <p>Based on current tech trends</p>
+      <div class="ai-recommended-tract-title-part">
+        <h2>AI Recommended Tracks</h2>
+        <p>Based on current tech trends</p>
+      </div>
+
+      <div class="ai-recommended-tract-cards">
+        <div class="card aiCard">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="./assets/machine-learning.png" alt="Machine Learning" />
+              <div>
+                <h3 class="">AI & Machine Learning</h3>
+                <p>Explore generative AI and intelligent systems</p>
+              </div>
+            </div>
+
+            <div class="features-keyword most-trending">
+              <i class="fa-solid fa-fire"></i> Trending
+            </div>
+          </div>
+
+          <div class="ai-recommended-tract-card-body">
+            <div class="topics">
+              <span>Learn about LLMS</span>
+              <span>RAG</span>
+              <span>Prompt Enginnerings</span>
+              <span>Fine-tuning</span>
+              <span>Generative AI Agents</span>
+              <span>Python</span>
+            </div>
+
+            <div class="what-you-build">
+              <p class="what-you-build-title">What you'll build</p>
+
+              <ul>
+                <li><i class="fa-solid fa-robot"></i> AI Chatbot</li>
+                <li><i class="fa-solid fa-file"></i> Document Assistant</li>
+                <li><i class="fa-solid fa-image"></i> Image Generator</li>
+                <li><i class="fa-solid fa-brain"></i> AI Agent</li>
+              </ul>
+            </div>
+
+            <div class="featured-speakers">
+              <p class="featured-speaker-title">Featured Speakers</p>
+
+              <div class="featured-speaker-imgs">
+                <img src="./assets/andrej.png" alt="Andrej" />
+                <img src="./assets/gary.png" alt="Gary" />
+                <small>+3 more</small>
+              </div>
+            </div>
+
+            <p class="ai-recommended-tract-card-divider"></p>
+
+            <div class="ai-recommended-tract-footer">
+              <div>
+                <i class="fa-solid fa-stopwatch"></i>
+                12 Sessions
+              </div>
+              <div>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                Hands-on Workshop
+              </div>
+
+              <div>
+                <i class="fa-solid fa-bullseye"></i>
+                Beginner -> Advanced
+              </div>
+
+              <p class="ai-recommended-tract-card-divider"></p>
+
+              <div class="btn interested">
+                <i class="fa-solid fa-user-astronaut"></i>
+                418 Already Registered
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="ai-recommended-tract-cards">
-            <div class="card aiCard">
-                <div class="card-header">
-                    <div class="card-title">
-                        <img src="./assets/machine-learning.png" alt="Machine Learning">
-                        <div>
-                            <h3 class="">AI & Machine Learning</h3>
-                            <p>Explore generative AI and intelligent systems</p>
-                        </div>
-                    </div>
-
-                    <div class="features-keyword most-trending">
-                        <i class="fa-solid fa-fire"></i> Trending
-                    </div>
-                </div>
-
-                <div class="ai-recommended-tract-card-body">
-                    <div class="topics">
-                        <span>Learn about LLMS</span>
-                        <span>RAG</span>
-                        <span>Prompt Enginnerings</span>
-                        <span>Fine-tuning</span>
-                        <span>Generative AI Agents</span>
-                        <span>Python</span>
-                    </div>
-
-                    <div class="what-you-build">
-                        <p class="what-you-build-title"> What you'll build </p>
-
-                        <ul>
-                            <li><i class="fa-solid fa-robot"></i> AI Chatbot</li>
-                            <li><i class="fa-solid fa-file"></i> Document Assistant</li>
-                            <li><i class="fa-solid fa-image"></i> Image Generator</li>
-                            <li><i class="fa-solid fa-brain"></i> AI Agent</li>
-                        </ul>
-                    </div>
-
-                    <div class="featured-speakers">
-                        <p class="featured-speaker-title"> Featured Speakers </p>
-
-                        <div class="featured-speaker-imgs">
-                            <img src="./assets/andrej.png" alt="Andrej">
-                            <img src="./assets/gary.png" alt="Gary">
-                            <small>+3 more</small>
-                        </div>
-                    </div>
-
-                    <p class="ai-recommended-tract-card-divider"> </p>
-
-                    <div class="ai-recommended-tract-footer">
-                        <div>
-                            <i class="fa-solid fa-stopwatch"></i>
-                            12 Sessions
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-chalkboard-user"></i>
-                            Hands-on Workshop
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-bullseye"></i>
-                            Beginner -> Advanced
-                        </div>
-
-                        <p class="ai-recommended-tract-card-divider"> </p>
-
-                        <div class="btn interested">
-                            <i class="fa-solid fa-user-astronaut"></i>
-                            418 Already Registered
-                        </div>
-                    </div>
-                </div>
+        <!-- card-filled -->
+        <div class="card frontendCard">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="./assets/frontend.png" alt="Frontend" />
+              <div>
+                <h3 class="">Frontend</h3>
+                <p>Create fast and accessible web apps</p>
+              </div>
             </div>
 
-            <!-- card-filled -->
-            <div class="card frontendCard">
-                <div class="card-header">
-                    <div class="card-title">
-                        <img src="./assets/frontend.png" alt="Frontend">
-                        <div>
-                            <h3 class="">Frontend</h3>
-                            <p>Create fast and accessible web apps</p>
-                        </div>
-                    </div>
+            <div class="features-keyword on-going">
+              <i class="fa-regular fa-eye"></i> Live
+            </div>
+          </div>
 
-                    <div class="features-keyword on-going">
-                        <i class="fa-regular fa-eye"></i> Live
-                    </div>
-                </div>
-
-                <div class="ai-recommended-tract-card-body">
-                    <div class="topics">
-                        <span>React</span>
-                        <span>Next.js</span>
-                        <span>Performance</span>
-                        <span>Accessibility</span>
-                    </div>
-
-                    <p class="ai-recommended-tract-card-divider"> </p>
-
-                    <div class="frontendCard-footer">
-                        <div class="btn interested">533 Already Joined</div>
-                        <button class="btn-outline join-now">JOIN NOW</button>
-                    </div>
-
-
-                </div>
+          <div class="ai-recommended-tract-card-body">
+            <div class="topics">
+              <span>React</span>
+              <span>Next.js</span>
+              <span>Performance</span>
+              <span>Accessibility</span>
             </div>
 
-            <div class="card cloudCard">
-                <div class="card-header">
-                    <div class="card-title">
-                        <img src="./assets/cloud.png" alt="Clund & Devops">
-                        <div>
-                            <h3 class="">Cloud & DevOps</h3>
-                            <p>Build scalable cloud infrastructure</p>
-                        </div>
-                    </div>
-                </div>
+            <p class="ai-recommended-tract-card-divider"></p>
 
-                <div class="ai-recommended-tract-card-body">
-                    <div class="topics">
-                        <span>Dcoker</span>
-                        <span>Kubernetes</span>
-                        <span>CI/CD</span>
-                        <span>Monitoring</span>
-                        <span>Terraform</span>
-                        <span>AWS</span>
-                    </div>
-
-                    <p class="ai-recommended-tract-card-divider"> </p>
-
-                    <div class="btn interested">137 Interested</div>
-                </div>
+            <div class="frontendCard-footer">
+              <div class="btn interested">533 Already Joined</div>
+              <button class="btn-outline join-now">JOIN NOW</button>
             </div>
-
-            <div class="card securityCard">
-                <div class="card-header">
-                    <div class="card-title">
-                        <img src="./assets/security.png" alt="Security">
-                        <div>
-                            <h3 class="">Security</h3>
-                            <p>Protect applications and APIs</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ai-recommended-tract-card-body">
-                    <div class="topics">
-                        <span>OWASP</span>
-                        <span>OAuth</span>
-                        <span>Authentication</span>
-                        <span>API Security</span>
-                    </div>
-
-                    <p class="ai-recommended-tract-card-divider"> </p>
-
-                    <div class="btn interested">271 Interested</div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="card cloudCard">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="./assets/cloud.png" alt="Clund & Devops" />
+              <div>
+                <h3 class="">Cloud & DevOps</h3>
+                <p>Build scalable cloud infrastructure</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ai-recommended-tract-card-body">
+            <div class="topics">
+              <span>Dcoker</span>
+              <span>Kubernetes</span>
+              <span>CI/CD</span>
+              <span>Monitoring</span>
+              <span>Terraform</span>
+              <span>AWS</span>
+            </div>
+
+            <p class="ai-recommended-tract-card-divider"></p>
+
+            <div class="btn interested">137 Interested</div>
+          </div>
+        </div>
+
+        <div class="card securityCard">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="./assets/security.png" alt="Security" />
+              <div>
+                <h3 class="">Security</h3>
+                <p>Protect applications and APIs</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ai-recommended-tract-card-body">
+            <div class="topics">
+              <span>OWASP</span>
+              <span>OAuth</span>
+              <span>Authentication</span>
+              <span>API Security</span>
+            </div>
+
+            <p class="ai-recommended-tract-card-divider"></p>
+
+            <div class="btn interested">271 Interested</div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- FOOTER -->
     <footer>
-        <div class="container">
-            <div class="footer-top">
-                <img src="./assets/footer-logo.png" alt="Logo">
-                <div class="footer-socials">
-                    <p>Social Links</p>
-                    <p class="social-icons">
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-square-linkedin"></i>
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="footer-bottom">
-                <p>
-                    <i class="fa-regular fa-copyright"></i>
-                    2026 DevConf. All rights reserved.
-                </p>
-
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="footer-top">
+          <img src="./assets/footer-logo.png" alt="Logo" />
+          <div class="footer-socials">
+            <p>Social Links</p>
+            <p class="social-icons">
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-linkedin"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </p>
+          </div>
         </div>
-    </footer>
-</body>
 
+        <div class="divider"></div>
+
+        <div class="footer-bottom">
+          <p>
+            <i class="fa-regular fa-copyright"></i>
+            2026 DevConf. All rights reserved.
+          </p>
+
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
