@@ -1,0 +1,184 @@
+/* AI Recommended Tracts Section CSS */
+.ai-recommended-tract-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.ai-recommended-tract-title-part {
+  text-align: center;
+}
+
+.ai-recommended-tract-cards {
+  display: grid;
+  gap: 30px;
+
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-areas:
+    "aiCard frontendCard frontendCard"
+    "aiCard cloudCard securityCard";
+}
+
+.aiCard {
+  grid-area: aiCard;
+}
+
+.cloudCard {
+  grid-area: cloudCard;
+}
+
+.frontendCard {
+  grid-area: frontendCard;
+}
+
+.securityCard {
+  grid-area: securityCard;
+}
+
+.ai-recommended-tract-parent .card {
+  border: 1px solid #9c989863;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.card-title img {
+  width: 60px;
+  height: auto;
+}
+
+.card-title h3 {
+  font-size: 18px;
+  color: #0d1b2a;
+}
+
+.features-keyword {
+  color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.most-trending {
+  background: #1d4ed8;
+}
+
+.ai-recommended-tract-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ai-recommended-tract-card-body .topics {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ai-recommended-tract-card-body span {
+  border: 1px solid #1d4ed8;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.ai-recommended-tract-card-body span:hover {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+.what-you-build {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.what-you-build-title,
+.featured-speaker-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.what-you-build ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.what-you-build ul li {
+  list-style: none;
+}
+
+.featured-speakers {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured-speaker-imgs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featured-speaker-imgs img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.ai-recommended-tract-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ai-recommended-tract-card-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.on-going {
+  background: #0d8a26;
+}
+
+.frontendCard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frontendCard-footer button {
+  background: none;
+  cursor: pointer;
+}
+
+.interested {
+  text-align: center;
+  background-color: #0d1b2a;
+}
+
+.join-now {
+  font-weight: 600;
+}
+
+.ai-recommended-tract-card-divider {
+  color: #0d8a26;
+  border-top: 1px solid #afa7a768;
+}
