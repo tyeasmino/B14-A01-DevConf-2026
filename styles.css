@@ -19,6 +19,14 @@
   border-radius: 6px;
 }
 
+.btn-outline {
+  border: 2px solid #1d4ed8;
+  padding: 8px 30px;
+  color: #1d4ed8;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
 /* NAVBAR CSS */
 nav {
   padding: 25px 0;
@@ -101,7 +109,8 @@ nav ul li a {
 }
 
 /* Speakers Section CSS */
-.speakers-parent {
+.speakers-parent,
+.secure-spot-parent {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -109,17 +118,19 @@ nav ul li a {
   align-items: center;
 }
 
-.speakers-parent h2 {
+.speakers-parent h2,
+.secure-spot-parent h2 {
   font-size: 46px;
 }
 
 .speakers-card-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
-.speakers-card-container .card {
+.speakers-card-container .card,
+.secure-spot-cards .card {
   border: 1px solid #9c989863;
   border-radius: 10px;
   overflow: hidden;
@@ -146,4 +157,108 @@ nav ul li a {
 .speakers-note {
   font-size: 12px;
   color: #575757;
+}
+
+/* Secure Your Section CSS */
+.secure-spot-parent {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secure-spot-title-part {
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.secure-spot-cards {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.secure-spot-cards .card {
+  padding: 34px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #575757;
+}
+
+.card-title h1 {
+  font-size: 48px;
+}
+
+.card-title p {
+  color: #575757e3;
+  font-size: 14px;
+}
+
+.divider {
+  margin: 20px 0;
+  border-top: 1px solid #afa7a768;
+}
+
+.secure-spot-cards {
+  background-color: #f8f9fb;
+}
+
+.secure-spot-cards ul {
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.secure-spot-cards ul li {
+  font-size: 18px;
+}
+
+.secure-spot-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.secure-spot-card-btn {
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-filled {
+  background-color: #0d1b2a;
+}
+
+.card-filled .card-name {
+  color: #93c5fd;
+}
+
+.card-filled h1 {
+  color: #ffffff;
+}
+
+.card-filled p {
+  color: #ffffff80;
+}
+
+.card-filled ul li {
+  color: #ffffffcd;
+  list-style: disc;
+}
+
+.card-filled ul li::marker {
+  color: #60a5fa;
 }
